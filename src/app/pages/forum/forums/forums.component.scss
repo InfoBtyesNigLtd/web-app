@@ -1,0 +1,153 @@
+h2 {
+    font-family: 'Poppins', serif;
+}
+
+section {
+    width: 70vw;
+    background-color: #f3f5f7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+    .head {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+
+        a {
+            text-decoration: none;
+            color: #000;
+
+            &:hover {
+                color: var(--hover-color);
+            }
+        }
+    }
+
+    .cs-s {
+        .cs-g-c {
+            display: flex;
+            justify-content: space-around;
+
+            .topic-list {
+                padding: 10px;
+
+                .list-lead {
+                    font-size: 15px;
+                    padding: 10px;
+
+                    h2 {
+                        a {
+                            text-decoration: none;
+                            color: #000;
+
+                            &:hover {
+                                color: var(--hover-color);
+                            }
+                        }
+                    }
+
+                    //    end of announcement
+
+                }
+
+                //    end of list-lead
+                ul {
+                    li {
+                        .ellipsis {
+                            h2 {
+                                text-transform: uppercase;
+                                font-size: 12px;
+
+                                a {
+                                    text-decoration: none;
+                                    color: #000;
+
+                                    &:hover {
+                                        color: var(--hover-color);
+                                    }
+
+                                }
+                            }
+
+                        }
+
+                        .help-text {
+                            font-size: 13px;
+                            margin-top: -5px;
+
+                            .timeago {
+                                font-style: italic;
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .topic-list {
+            padding: 60px;
+            .list-lead {
+                font-size: 15px;
+                padding-left: 10px;
+                h2 {
+                    margin-top: -10px;
+                    a {
+                        text-decoration: none;
+                        color: #000;
+
+                        &:hover {
+                            color: var(--hover-color);
+                        }
+                    }
+                }
+
+                //    end of announcement
+
+            }
+
+            //    end of list-lead
+            ul {
+                li {
+                    .ellipsis {
+                        h2 {
+                            font-size: 15px;
+
+                            a {
+                                text-decoration: none;
+                                color: #000;
+
+                                &:hover {
+                                    color: var(--hover-color);
+                                }
+
+                            }
+                        }
+
+                    }
+
+                    .help-text {
+                        font-size: 16px;
+                        margin-top: -5px;
+                        a{
+                            text-decoration: none;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+
+                        .timeago {
+                            font-style: italic;
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+}

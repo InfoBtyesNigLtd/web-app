@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --hover-color: #fe9c03;
+    --base-blue: #00425f;
+    --base-blue-dark: #003046;
+}
+@import url('./assets/remix/remixicon.css');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+}
